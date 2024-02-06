@@ -1,0 +1,17 @@
+{
+  "avatar": "https",
+
+  "name": "Nesli",
+
+  "DateOfBirth": {
+    "Year": "1998",
+    "Month": "12",
+    "Day": "25"
+  },
+
+  "age": 25,
+
+  "favoritePets": "Dogs",
+
+  "OpenForJobProposals": "True"
+}
