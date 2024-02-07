@@ -11,8 +11,3 @@ body {
     min-height: 100vh;
     background: #f1f4fd;
 }
-
-.container {
-    max-width: 1200px;
-    width: 95%;
-}

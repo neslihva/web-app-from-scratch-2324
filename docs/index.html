@@ -15,27 +15,31 @@
     <title>Web App From Scratch 23-24</title>
 </head>
 <body>
-  <div class="image-sliders">
-    <div class="slider-wrapper">
-      <button id="prev-slide" class="slide-button">
-      chevron_left
-      </button>
-      <ul class="image-list">
-        <img class="img-example" src="" alt="img-1" />
-        <img class="img-example" src="" alt="img-2" />
-        <img class="img-example" src="" alt="img-3" />
-        <img class="img-example" src="" alt="img-4" />
-      </ul>
-      <button id="next-slide" class="slide-button">
-        chevron_right
-      </button>
-    </div>
-    <div class="slider-scrollbar">
-      <div class="scrollbar-track">
-        <div class="scrollbar-thumb"></div>
-      </div>
-    </div>
-  </div>
+  <main> <!--- main content -->
+    <div class="wrapper">
+
+  <section class="holding-container">
+    <h2 hidden> In stock items</h2>
+    <article class ="internalcontainer">
+        <img src="img-example.jpg" alt="about">
+    </article>
+
+    <article class ="internalcontainer">
+        <img src="img-example.jpg" alt="location">
+    </article>
+
+    <article class ="internalcontainer">
+        <img src="img-example.jpg" alt="hobby's">
+    </article>
+
+    <article class ="internalcontainer">
+        <img src="img-example.jpg" alt="favorite videos">
+    </article>
+</section>
+
+</div>
+</main>
+
 <script src="scripts/index.js" async type="application/javascript"></script>
 </body>
 </html>
