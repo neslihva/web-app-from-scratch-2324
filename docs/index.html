@@ -15,31 +15,37 @@
     <title>Web App From Scratch 23-24</title>
 </head>
 <body>
-  <main> <!--- main content -->
-    <div class="wrapper">
+  <main> <!-- main content -->
+    <section class="container">
+      <div class ="card__container">
+        <div class="card__content">
+          <div>
+          <article class ="card__article"> <!-- card 1 -->
+            <img src="img-example.jpg" alt="about" class="card__img">
+            <div class="card__shadow"></div>
+          </article>
+          </div>
 
-  <section class="holding-container">
-    <h2 hidden> In stock items</h2>
-    <article class ="internalcontainer">
-        <img src="img-example.jpg" alt="about">
-    </article>
+          <div class="card__data">
+            <h3 class="card__name"></h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
 
-    <article class ="internalcontainer">
-        <img src="img-example.jpg" alt="location">
-    </article>
+            <a href="#" class="card__button">View More</a>
+          </div>
+      </div>
+    </section>
 
-    <article class ="internalcontainer">
-        <img src="img-example.jpg" alt="hobby's">
-    </article>
 
-    <article class ="internalcontainer">
-        <img src="img-example.jpg" alt="favorite videos">
-    </article>
-</section>
-
-</div>
-</main>
+  </main>
 
 <script src="scripts/index.js" async type="application/javascript"></script>
 </body>
 </html>
+
+
+<article class ="internalcontainer">
+  <img src="img-example.jpg" alt="about">
+</article>
