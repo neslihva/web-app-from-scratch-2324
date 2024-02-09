@@ -12,7 +12,19 @@ body {
     background: #f1f4fd;
 }
 
-.wrapper {
-    position: relative;
-    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__container{
+    padding-block: 5rem;
+}
+
+.card__content{
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
 }
