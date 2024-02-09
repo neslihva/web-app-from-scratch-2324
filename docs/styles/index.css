@@ -22,6 +22,7 @@ body {
     background-color: #fff;
 }
 
+.image-content,
 .card-content{
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@ body {
 }
 
 .image-content{
+    position: relative;
     row-gap: 5px;
 }
 
@@ -40,6 +42,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #575366;
+    border-radius: 25px 25px 0 25px;
 }
 
 .card-image{
