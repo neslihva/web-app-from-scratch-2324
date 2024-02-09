@@ -13,6 +13,13 @@ body {
     background-color: #efefef;
 }
 
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+}
+
 .slide-content{
     margin: 0 40px;
 }
@@ -23,8 +30,7 @@ body {
     background-color: #fff;
 }
 
-.image-content,
-.card-content{
+.image-content .card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
