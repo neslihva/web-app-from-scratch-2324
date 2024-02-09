@@ -28,3 +28,25 @@ body {
     border-radius: 1.25rem;
     overflow: hidden;
 }
+
+.card__article{
+    width: 300px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card__image{
+    position: relative;
+    background-color: aliceblue;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+}
+
+.card__data{
+    background-color: antiquewhite;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
