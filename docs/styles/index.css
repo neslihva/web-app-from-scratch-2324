@@ -1,67 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #f1f4fd;
-}
-
-.container {
-    display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.card__container{
+    height: 100vh;
+  }
+  
+  .card__container {
     padding-block: 5rem;
-}
-
-.card__content{
+  }
+  
+  .card__content {
     margin-inline: 1.75rem;
     border-radius: 1.25rem;
     overflow: hidden;
-}
-
-.card__article{
+  }
+  
+  .card__article {
     width: 300px;
     border-radius: 1.25rem;
     overflow: hidden;
-}
-
-.card__image{
+  }
+  
+  .card__image {
     position: relative;
-    background-color: aliceblue;
+    background-color: pink;
     padding-top: 1.5rem;
     margin-bottom: -.75rem;
-}
-
-.card__data{
-    background-color: antiquewhite;
+  }
+  
+  .card__data {
+    background-color: black;
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     text-align: center;
     position: relative;
     z-index: 10;
-}
-
-.card__img {
+  }
+  
+  .card__img {
     width: 180px;
     margin: 0 auto;
     position: relative;
     z-index: 5;
-}
-
-.card__shadow {
+  }
+  
+  .card__shadow {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: grey;
     border-radius: 50%;
     position: absolute;
     top: 3.75rem;
@@ -69,19 +77,23 @@ body {
     right: 0;
     margin-inline: auto;
     filter: blur(45px);
-}
-
-.card__name {
-
-}
-
-.card__description {
-
-}
-
-.card__button {
+  }
+  
+  .card__name {
+    font-size: 20px;
+    color: black;
+    margin-bottom: .75rem;
+  }
+  
+  .card__description {
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  
+  .card__button {
     display: inline-block;
+    background-color: palegoldenrod;
     padding: .75rem 1.5rem;
     border-radius: .25rem;
     font-weight: 600;
-}
+  }
