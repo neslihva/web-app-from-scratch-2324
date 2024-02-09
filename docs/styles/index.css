@@ -18,11 +18,13 @@ body {
 }
 
 .card{
+    width: 320px;
     border-radius: 25px;
     background-color: #fff;
 }
 
-.image-content, .card-content{
+.image-content,
+.card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +42,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #575366;
+    background-color: #E2FDFF;
     border-radius: 25px 25px 0 25px;
 }
 
@@ -49,6 +51,8 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
 }
 
 .card-image .card-img{
@@ -56,6 +60,7 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
+    border: 4px solid #BFD7FF;
 }
 
 .name{
@@ -75,7 +80,7 @@ body {
     font-size: 16px;
     color: #FFF;
     padding: 8px 16px;
-    background-color: #DADFF7;
+    background-color: #9BB1FF;
     border-radius: 6px;
     margin: 14px;
     cursor: pointer;
@@ -83,7 +88,7 @@ body {
 }
 
 .button:hover{
-    background: #B5B2C2;
+    background: #B5BFFF;
 }
 
   
