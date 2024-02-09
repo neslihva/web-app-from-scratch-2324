@@ -50,3 +50,38 @@ body {
     position: relative;
     z-index: 10;
 }
+
+.card__img {
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.card__shadow {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.75rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    filter: blur(45px);
+}
+
+.card__name {
+
+}
+
+.card__description {
+
+}
+
+.card__button {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    border-radius: .25rem;
+    font-weight: 600;
+}
