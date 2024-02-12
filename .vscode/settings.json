@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.root": "/docs",
+    "liveServer.settings.mount": [
+        ["/web-app-from-scratch-2324/", "./docs"]
+    ]
+}
