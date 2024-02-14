@@ -21,5 +21,5 @@
       "weaknesses": ["procrastination", "being overly critical"],
       "habitat": [
         { "title": "Home", "value": "Amsterdam" },
-        { "title": "GitHub", "value": "https://github.com/neslihva" },      ]
+        { "title": "GitHub", "value": "https://github.com/neslihva" }      ]
     }
