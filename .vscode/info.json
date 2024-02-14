@@ -1,0 +1,27 @@
+{
+    "firstName": "Neslihan",
+    "lastName": "Iliz",
+    "avatar_url": "",
+    "age": 25,
+    "city": "Amsterdam",
+    "hobbies" : ["Films", "Music", "Gaming"],
+    "truthsAndLies": ["I have a dog named Shiwa", "I love drinking tea", "I don't like going to the movie theater"],
+    "bio" : "Hi, I'm nesli and im a 25 year old student studying CMD. I am currently doing the minor Web design & development.",
+    "favoritePokemon" : "Gengar",
+    "favoritePokemonColor" : "purple",
+    "favoritePokemonAvatar": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png",
+    "stats": [
+        { "title": "HTML", "value": 70 },
+        { "title": "CSS", "value": 40 },
+        { "title": "JavaScript", "value": 20 },
+        { "title": "Design", "value": 100 },
+        { "title": "Git", "value": 20 }
+      ],
+      "strengths": ["planning", "adaptability"],
+      "weaknesses": ["procrastination", "being overly critical"],
+      "habitats": [
+        { "title": "Home", "value": "Amsterdam" },
+        { "title": "GitHub", "value": "https://github.com/neslihva" },
+        { "title": "LinkedIn", "value": "" }
+      ]
+    }
