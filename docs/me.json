@@ -1,17 +1,17 @@
 {
-  "avatar": "https",
-
-  "name": "Nesli",
-
-  "DateOfBirth": {
-    "Year": "1998",
-    "Month": "12",
-    "Day": "25"
-  },
-
+  "firstName": "Neslihan",
+  "lastName": "Iliz",
+  "avatar_url": "https://raw.githubusercontent.com/neslihva/web-app-from-scratch-2324/main/images/IMG_8671.jpg",
   "age": 25,
-
-  "favoritePets": "Dogs",
-
-  "OpenForJobProposals": "True"
+  "city": "Amsterdam",
+  "hobbies" : ["Films", "Music", "Gaming"],
+  "truthsAndLies": ["I have a dog named Shiwa", "I love drinking tea", "I don't like going to the movie theater"],
+  "bio" : "Hi, I'm nesli and im a 25 year old student studying CMD. I am currently doing the minor Web design & development.",
+  "stats": [
+    { "title": "HTML", "value": 70 },
+    { "title": "CSS", "value": 40 },
+    { "title": "JavaScript", "value": 20 },
+    { "title": "Design", "value": 100 },
+    { "title": "Git", "value": 20 }
+  ]
 }
